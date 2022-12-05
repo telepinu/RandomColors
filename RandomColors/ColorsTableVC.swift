@@ -32,7 +32,7 @@ class ColorsTableVC: UIViewController {
 
     func addRandomColors() {
         for _ in 0 ..< 50 {
-            colors.append(.random() )
+            colors.append(.generateRandomPastelColor(withMixedColor: .random()))
             
             
         }
